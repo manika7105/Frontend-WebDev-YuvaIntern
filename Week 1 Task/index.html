@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DevSpace - a responsive developer portfolio landing page created for Week 1 frontend internship task.">
+    <title>DevSpace | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a href="#home" class="logo" aria-label="DevSpace home">
+                <span class="logo-mark">&lt;/&gt;</span>
+                <span>Dev<span>Space</span></span>
+            </a>
+
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a class="nav-button" href="#contact">Let's Talk</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">FRONTEND DEVELOPER</p>
+                    <h1>Building clean interfaces for the <span>modern web.</span></h1>
+                    <p class="hero-text">
+                        I turn ideas and designs into responsive, accessible and
+                        user-friendly web experiences using modern frontend fundamentals.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">View Projects</a>
+                        <a class="button button-secondary" href="#about">Explore More</a>
+                    </div>
+
+                    <div class="quick-stats" aria-label="Developer highlights">
+                        <div>
+                            <strong>12+</strong>
+                            <span>Projects</span>
+                        </div>
+                        <div>
+                            <strong>3+</strong>
+                            <span>Core Skills</span>
+                        </div>
+                        <div>
+                            <strong>100%</strong>
+                            <span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-card" aria-label="Developer workspace illustration">
+                    <div class="window-bar">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="code-window">
+                        <p><span class="code-keyword">const</span> developer = {</p>
+                        <p class="indent"><span class="code-property">name:</span> <span class="code-string">'Alex'</span>,</p>
+                        <p class="indent"><span class="code-property">focus:</span> <span class="code-string">'Frontend'</span>,</p>
+                        <p class="indent"><span class="code-property">responsive:</span> <span class="code-value">true</span>,</p>
+                        <p class="indent"><span class="code-property">learning:</span> <span class="code-string">'always'</span></p>
+                        <p>};</p>
+                        <p class="cursor-line"><span class="code-keyword">build</span>(developer);<span class="cursor"></span></p>
+                    </div>
+                    <div class="floating-badge badge-one">HTML5</div>
+                    <div class="floating-badge badge-two">CSS3</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container two-column">
+                <div>
+                    <p class="section-label">01 — ABOUT</p>
+                    <h2>Simple structure.<br><span>Thoughtful details.</span></h2>
+                </div>
+                <div class="about-copy">
+                    <p>
+                        DevSpace is a conceptual portfolio landing page designed from scratch
+                        for this internship task. The interface focuses on clear hierarchy,
+                        readable content and a layout that adapts smoothly to different devices.
+                    </p>
+                    <p>
+                        The page uses semantic HTML elements and a structured CSS system to keep
+                        the code readable, maintainable and easy to extend.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-muted" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">02 — SKILLS</p>
+                        <h2>Tools behind the interface.</h2>
+                    </div>
+                    <p>Core technologies used to create clean and responsive web pages.</p>
+                </div>
+
+                <div class="skill-grid">
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Semantic structure, accessible content hierarchy and meaningful page elements.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <div class="skill-icon">#</div>
+                        <h3>CSS</h3>
+                        <p>Responsive layouts, spacing systems, typography, animations and visual styling.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Frontend programming fundamentals for creating interactive web experiences.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">03 — PROJECTS</p>
+                        <h2>Selected work.</h2>
+                    </div>
+                    <p>A few conceptual projects presented through a consistent card-based layout.</p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card project-featured">
+                        <div class="project-visual visual-one">
+                            <span>01</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>WEB DESIGN</span>
+                                <span>2026</span>
+                            </div>
+                            <h3>Focus Dashboard</h3>
+                            <p>A clean productivity dashboard concept built around information hierarchy and usability.</p>
+                            <a href="#contact" class="text-link">View concept <span>→</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-two">
+                            <span>02</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>LANDING PAGE</span>
+                                <span>2026</span>
+                            </div>
+                            <h3>Launch Studio</h3>
+                            <p>A modern product landing page focused on clear calls to action and responsive composition.</p>
+                            <a href="#contact" class="text-link">View concept <span>→</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-three">
+                            <span>03</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>PORTFOLIO</span>
+                                <span>2026</span>
+                            </div>
+                            <h3>Creator Profile</h3>
+                            <p>A personal profile layout balancing visual identity, skills and selected work.</p>
+                            <a href="#contact" class="text-link">View concept <span>→</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container contact-box">
+                <div>
+                    <p class="section-label">04 — CONTACT</p>
+                    <h2>Have an idea?<br><span>Let's build it.</span></h2>
+                </div>
+                <div class="contact-content">
+                    <p>
+                        This contact area completes the page hierarchy and provides a clear
+                        next step for visitors interested in working together.
+                    </p>
+                    <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrapper">
+            <p>© 2026 DevSpace. Designed and developed for Week 1 internship task.</p>
+            <div class="footer-links">
+                <a href="#home">Back to top ↑</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
